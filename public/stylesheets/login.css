@@ -1,6 +1,6 @@
 
 fieldset {
-    width: 20em;
+    width: 22em;
     background-color: lightgray;
     box-shadow: 5px 5px 5px gray;
     margin-left: auto;
@@ -9,7 +9,7 @@ fieldset {
   
 label {
     float: left;
-    width: 7em;
+    width: 9em;
     clear: left;
     text-align: right;
     padding-right: 1em;
