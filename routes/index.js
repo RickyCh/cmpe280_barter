@@ -23,7 +23,7 @@ module.exports = function (app) {
 
         console.log(email, passwd);
 
-        // no mysql for now, check in local
+        // no mysql for now, check on local
         if(email === "batman@dc.com" && passwd === "brucewayne") {
             res.sendfile('./views/logged.html');
         } else {
