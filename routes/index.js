@@ -1,3 +1,8 @@
+/* 
+router for server, responses request by sending static
+html page. This will be changed to dynamic template render 
+in the next version. 
+*/
 
 module.exports = function (app) {
     app.get('/', function(req, res) {
@@ -18,6 +23,7 @@ module.exports = function (app) {
 
         console.log(email, passwd);
 
+        // no mysql for now, check in local
         if(email === "batman@dc.com" && passwd === "brucewayne") {
             res.sendfile('./views/logged.html');
         } else {
@@ -34,6 +40,8 @@ module.exports = function (app) {
 
         console.log("registed: ", name, email, passwd);
 
+        // no mysql for now, pass all register request and won't
+        // record the data 
         res.sendfile('./views/signuped.html');
     });
 };

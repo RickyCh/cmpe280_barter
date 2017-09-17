@@ -8,6 +8,7 @@
     <script src="/scripts/logincheck.js" type="text/javascript"></script>
 </head>
 <body>
+    <!===================MASTHEAD===================>
     <header class="masthead">
         <ul class="toplist">
             <li>
@@ -22,12 +23,16 @@
         </ul>
     </header>
     <!===================END MASTHEAD===============>
+
     <div>
         <div class="space50"></div>
         <div id="error">
             <p>Please input your email and password ie: "batman@dc.com" "brucewayne"</p>
         </div>
+
+        <!===============LOGIN FORM=================>
         <form action="loginForm" id="form" onsubmit="return checkForm()">
+            <!check input validity by javascript, triggered by login button>
             <fieldset>
                 <legend>Login</legend>
                 <p>
@@ -43,8 +48,11 @@
                 </p>
             </fieldset>
         </form>
+        <!==============END FORM===================>
+
         <div>
             <p class="reset"><a href="/">I forget my password</a></p>
+            <! To be completed >
         </div>
     </div>
 </body>

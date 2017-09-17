@@ -13,13 +13,16 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-//app.use(express.static(path.join(__dirname, 'public')));
+
+// register dirnames 
 app.use("/styles",  express.static(__dirname + '/public/stylesheets'));
 app.use("/scripts", express.static(__dirname + '/public/javascripts'));
 app.use("/images",  express.static(__dirname + '/public/images'));
 
+// set port as specified number or 8080 for default
 var port = process.env.port || 8080;
 
+// redirect router to routes dir
 var routes = require('./routes')(app);
 
 app.listen(port);
