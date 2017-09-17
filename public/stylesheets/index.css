@@ -1,0 +1,23 @@
+.mainpage {
+    text-align: center;
+}
+
+.space50 {
+    height: 50px;
+    clear: both;
+}
+
+.mainpage h1{
+    font-size: xx-large;
+}
+
+.mainpage h2{
+    font-size: medium;
+}
+
+.mainpage a {
+    width: 60px;
+    font-style: bold;
+    font-size: medium;
+    font-family: sans-serif;
+}

@@ -1,0 +1,43 @@
+
+fieldset {
+    width: 20em;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+label {
+    float: left;
+    width: 7em;
+    clear: left;
+    text-align: right;
+    padding-right: 1em;
+}
+  
+input {
+    float: left;
+}
+  
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    clear: both;
+  }
+
+.reset {
+    text-align: center;
+}
+
+.space50 {
+    height: 50px;
+    clear: both;
+}
+
+#error {
+    text-align: center;
+}
