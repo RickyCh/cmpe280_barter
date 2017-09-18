@@ -28,17 +28,18 @@ button {
     position: relative;
     top: 10px;
     clear: both;
-  }
+}
 
 .reset {
-    text-align: center;
+    text-align: center
 }
 
-.space50 {
-    height: 50px;
-    clear: both;
+.reset a {
+    color: #00f;
 }
+
 
 #error {
     text-align: center;
+    color: #ffffff;
 }

@@ -32,10 +32,7 @@ button {
 }
 
 #error {
+    color: #ffffff;
     text-align: center;
 }
 
-.space50 {
-    height: 50px;
-    clear: both;
-}

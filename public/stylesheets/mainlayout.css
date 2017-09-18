@@ -1,23 +1,44 @@
-
-.toplist {
-    font-size: x-large;
-    font-family: serif;
-    list-style-type:none;
-    margin:0;
-    padding:0;    
-}
-
-.toplist a {
-    display: block;
-    width: 100px;
-    background-color: #dddddd;
-}
-
-.toplist li {
-    float: left;
-}
-
 body {
-    background-color: #fdf6e3;
+    background-image: url(https://wallpaperscraft.com/image/form_light_abstraction_bright_76089_3840x2160.jpg);
+    background-color: #000000;
+    background-size: cover;
 }
 
+.home-history-my-item {
+    float: right;
+    font-family: Arial,Verdana,Sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+
+.prompt {
+    text-align: center;
+    color: #ffffff;
+}
+
+.prompt a {
+    color:#00f;
+}
+
+
+.space50 {
+    height: 50px;
+    clear: both;
+}
+
+legend {
+    color:#00f;
+    background-color:#ddd;
+}
+
+a {
+    color: #ffffff;
+}

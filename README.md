@@ -1,4 +1,4 @@
-# Barter Station - CMPE 280 Project
+# Barter Station - Team: Project JS Magician
 
 This is the log in and sign up prototype of the online barter platform. Tested on chrome and safari browser.
 
