@@ -2,6 +2,7 @@ body {
     background-image: url(https://wallpaperscraft.com/image/form_light_abstraction_bright_76089_3840x2160.jpg);
     background-color: #000000;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home-history-my-item {
