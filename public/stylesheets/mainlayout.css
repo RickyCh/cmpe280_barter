@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://wallpaperscraft.com/image/gradient_light_dark_background_51893_1600x1200.jpg);
+    background-image: url(/images/bg@3x.png);
     background-color: #000000;
     background-size: cover;
 }
@@ -7,7 +7,7 @@ body {
 .home-history-my-item {
     float: right;
     font-family: Arial,Verdana,Sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -15,7 +15,7 @@ body {
     letter-spacing: 2.4px;
     text-align: center;
     color: #ffffff;
-    margin-top: 23px;
+    margin-top: 22px;
     margin-right: 10px;
 }
 
